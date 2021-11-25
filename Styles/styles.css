@@ -1,0 +1,638 @@
+@import url("https://fonts.google.com/specimen/Public+Sans");
+@media screen and (max-width: 600px) {
+  body #dadofallcontainers {
+    width: 100%;
+  }
+  body #dadofallcontainers .navbar .links {
+    width: 90%;
+    background-color: coral;
+  }
+  body #dadofallcontainers #mainbody .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+  body #dadofallcontainers #mainbody .section1 #overflow {
+    display: none;
+  }
+  body #dadofallcontainers #mainbody .section1 #overflow img {
+    width: 400px;
+    height: 400px;
+  }
+  body #dadofallcontainers #mainbody .section1 #overflow2 {
+    left: 0;
+  }
+  body #dadofallcontainers #mainbody .section1 #overflow2 img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  body #dadofallcontainers #mainbody .section1 #hiddendeskimg {
+    width: 100%;
+    margin: auto;
+  }
+  body #dadofallcontainers #mainbody .section1 #hiddendeskimg img {
+    width: 100%;
+  }
+  body #dadofallcontainers #mainbody .section1 .introinfo {
+    text-align: center;
+  }
+  body #dadofallcontainers #mainbody .section1 .introinfo h1 {
+    margin: auto;
+  }
+  body #dadofallcontainers #mainbody .section1 .introinfo .button {
+    margin: auto;
+  }
+  body #dadofallcontainers #mainbody #section2 {
+    padding: 100px 0 50px 0;
+  }
+  body #dadofallcontainers #mainbody #section2 .intro {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  body #dadofallcontainers #mainbody #section2 #featurecont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #dadofallcontainers #mainbody #section2 #featurecont #features {
+    text-align: center;
+  }
+  body #dadofallcontainers #mainbody #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  body #dadofallcontainers #mainbody #footer #companylogo2 img {
+    margin: 0;
+  }
+  body #dadofallcontainers #mainbody #footer .ullist {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+  }
+  body #dadofallcontainers #mainbody #footer .ullist ul {
+    margin: 0;
+  }
+  body #dadofallcontainers #mainbody #footer .ullist ul a li:hover {
+    color: green;
+    cursor: pointer;
+  }
+  body #dadofallcontainers #mainbody #footer #socialmediacontainer {
+    top: 70px;
+    left: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body #dadofallcontainers #mainbody #footer .patent {
+    right: auto;
+    bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #hiddendeskimg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  body #dadofallcontainers .navbar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #dadofallcontainers .navbar .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: white;
+    position: absolute;
+    padding: 30px 30px;
+    top: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    z-index: 1;
+    width: 80%;
+  }
+  body #dadofallcontainers .navbar .links li .litem:hover {
+    text-decoration: none;
+  }
+  body #dadofallcontainers .navbar .button {
+    display: none;
+  }
+  body #dadofallcontainers .navbar #ham {
+    display: block;
+  }
+  body #dadofallcontainers .navbar #ham:hover {
+    cursor: pointer;
+  }
+  body #dadofallcontainers .navbar #close {
+    display: none;
+  }
+  body #dadofallcontainers .navbar #close:hover {
+    cursor: pointer;
+  }
+  body #dadofallcontainers #section3 {
+    width: 100%;
+  }
+  body #dadofallcontainers #section3 .gridcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: start;
+    grid-row-gap: 20px;
+  }
+  body #dadofallcontainers #section3 .gridcontainer .items {
+    margin-left: 1px;
+  }
+  body #dadofallcontainers #section3 .imgcont {
+    text-align: center;
+  }
+  body #dadofallcontainers #section3 .imgcont img {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body #ham img {
+    display: none;
+  }
+  body #close {
+    display: none;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'specimen', sans-serif;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html body #dadofallcontainers {
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+html body #dadofallcontainers .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+html body #dadofallcontainers .navbar .logo img {
+  margin-top: 8px;
+}
+
+html body #dadofallcontainers .navbar .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+html body #dadofallcontainers .navbar .links li {
+  margin: 10px;
+}
+
+html body #dadofallcontainers .navbar .links li a {
+  text-decoration: none;
+  color: #9698a6;
+  text-underline-offset: 30px;
+}
+
+html body #dadofallcontainers .navbar .links li a:hover {
+  color: black;
+  text-decoration: underline;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+html body #dadofallcontainers .navbar .links li a:not(:hover) {
+  color: #9698a6;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+html body #dadofallcontainers .navbar .button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  border-radius: 100px;
+  padding: 12px 30px 12px 30px;
+  border: none;
+  color: white;
+  margin-right: -300px;
+}
+
+html body #dadofallcontainers .navbar .button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers .navbar .button:not(:hover) {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers #mainbody .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fafafa;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo h1 {
+  width: 350px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo p {
+  width: 400px;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+  opacity: 0.7;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo .button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  border-radius: 100px;
+  padding: 12px 30px 12px 30px;
+  border: none;
+  color: white;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo .button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers #mainbody .section1 .introinfo .button:not(:hover) {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers #mainbody .section1 #overflow {
+  margin-top: -200px;
+  margin-right: -330px;
+}
+
+html body #dadofallcontainers #mainbody .section1 #overflow2 {
+  position: absolute;
+  right: -100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: -100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+html body #dadofallcontainers #mainbody .section1 #overflow2 #overflowmobile {
+  right: 0;
+  top: 0;
+}
+
+html body #dadofallcontainers #section2 {
+  background-color: #f3f4f6;
+  padding: 70px 0 70px 0;
+}
+
+html body #dadofallcontainers #section2 .ninety {
+  width: 85%;
+  margin: auto;
+}
+
+html body #dadofallcontainers #section2 .ninety .intro {
+  width: 55%;
+}
+
+html body #dadofallcontainers #section2 .ninety .intro h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+html body #dadofallcontainers #section2 .ninety .intro p {
+  margin: 20px 0 70px 0;
+}
+
+html body #dadofallcontainers #section2 .ninety #featurecont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column-gap: 15px;
+}
+
+html body #dadofallcontainers #section2 .ninety #featurecont div h3 {
+  margin: 20px 0 20px 0;
+  font-weight: 500;
+}
+
+html body #dadofallcontainers #section2 .ninety #featurecont div p {
+  opacity: 0.7;
+  line-height: 26px;
+}
+
+html body #dadofallcontainers #section3 {
+  width: 100%;
+  margin: 70px 0 70px 0;
+}
+
+html body #dadofallcontainers #section3 #seventy {
+  width: 85%;
+  margin: auto;
+}
+
+html body #dadofallcontainers #section3 .article {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+html body #dadofallcontainers #section3 .article p {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column-gap: 20px;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items {
+  background-color: #f3f4f6;
+  border-radius: 10px;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .imgcont img {
+  width: 286px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits .personia {
+  opacity: 0.7;
+  font-size: 15px;
+  margin: 0 0 20px 0;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits a {
+  text-decoration: none;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits a .sdesc {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits a .sdesc:hover {
+  color: #31d35c;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits a .sdesc:not(:hover) {
+  color: black;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+html body #dadofallcontainers #section3 .gridcontainer .items .benifits .description {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+html body #dadofallcontainers #footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2d314d;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px;
+  position: relative;
+}
+
+html body #dadofallcontainers #footer #companylogo2 img {
+  -webkit-filter: invert(5);
+          filter: invert(5);
+  margin-left: -70px;
+  margin-top: 10px;
+}
+
+html body #dadofallcontainers #footer .ullist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  width: 30%;
+  margin-left: -150px;
+}
+
+html body #dadofallcontainers #footer .ullist ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html body #dadofallcontainers #footer .ullist ul a {
+  text-decoration: none;
+}
+
+html body #dadofallcontainers #footer .ullist ul a li {
+  color: white;
+  margin: 13px 0 13px 0;
+}
+
+html body #dadofallcontainers #footer .ullist ul a li:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #31d35c;
+}
+
+html body #dadofallcontainers #footer .ullist ul a li:not(:hover) {
+  color: white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+html body #dadofallcontainers #footer button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  border-radius: 100px;
+  padding: 12px 30px 12px 30px;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+
+html body #dadofallcontainers #footer button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers #footer button:not(:hover) {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body #dadofallcontainers #footer .patent {
+  position: absolute;
+  right: 0;
+}
+
+html body #dadofallcontainers #footer #socialmediacontainer {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+
+html body #dadofallcontainers #footer #socialmediacontainer img {
+  margin-left: 10px;
+}
+
+html body #dadofallcontainers #footer .patent {
+  position: absolute;
+  bottom: 40px;
+  right: 160px;
+  color: white;
+  opacity: 0.5;
+}
+
+.pop {
+  margin-top: 70%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.off {
+  margin-top: -110%;
+}
+
+.black {
+  background-color: black;
+}
+/*# sourceMappingURL=styles.css.map */
